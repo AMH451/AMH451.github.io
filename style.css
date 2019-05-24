@@ -1,0 +1,54 @@
+*
+{
+    margin: 0
+    padding: 0
+}
+
+
+
+.nav-bar
+{
+
+    background: rgb(0, 0, 0, 0.5);
+    height: 80px;
+}
+
+.menu{
+
+    float: right;
+    list-style: none;
+    margin: 20px;
+
+}
+
+.menu li{
+    display: inline-block;
+    margin: 10px 5px
+}
+
+.menu li a{
+    text-decoration: none;
+    color: azure;
+    padding: 5px 10px;
+    font-family: "Times New Roman";
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+}
+
+.menu a:hover{
+    background: #fff;
+    transition: .4s;
+    color: #000;
+}
+
+.welcome{
+    position: absolute;
+    font-family: "Matura MT Script Capitals";
+    color: azure;
+    top: 70px;
+    right: 515px;
+    font-size: 30px;
+    text-shadow: blueviolet 5px 2px;
+
+}
+
