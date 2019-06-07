@@ -1,7 +1,7 @@
 *
 {
-    margin: 0
-    padding: 0
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -11,6 +11,12 @@
 
     background: rgb(0, 0, 0, 0.5);
     height: 80px;
+    z-index: 1;
+}
+
+.nav-bar li{
+    display: inline;
+    float: left
 }
 
 .menu{
@@ -21,10 +27,6 @@
 
 }
 
-.menu li{
-    display: inline-block;
-    margin: 10px 5px
-}
 
 .menu li a{
     text-decoration: none;
@@ -33,6 +35,8 @@
     font-family: "Times New Roman";
     letter-spacing: 2px;
     border: 1px solid #fff;
+    display: inline-block;
+    margin: 10px 5px
 }
 
 .menu a:hover{
@@ -52,3 +56,183 @@
 
 }
 
+.otherprojects{
+    position: absolute;
+    font-family: "Matura MT Script Capitals";
+    color: azure;
+    top: 70px;
+    right: 515px;
+    font-size: 30px;
+    text-shadow: blueviolet 5px 2px;
+
+}
+
+.games{
+    position: absolute;
+    font-family: "Matura MT Script Capitals";
+    color: azure;
+    top: 70px;
+    right: 515px;
+    font-size: 30px;
+    text-shadow: blueviolet 5px 2px;
+
+}
+
+.about{
+    position: absolute;
+    font-family: "Matura MT Script Capitals";
+    color: azure;
+    top: 70px;
+    right: 515px;
+    left: 515px;
+    font-size: 30px;
+    text-shadow: blueviolet 5px 2px;
+
+}
+
+.inspiration{
+    position: absolute;
+    font-family: "Matura MT Script Capitals";
+    color: azure;
+    top: 70px;
+    right: 515px;
+    font-size: 30px;
+    text-shadow: blueviolet 5px 2px;
+
+}
+
+.bounce{
+    position: absolute;
+    top:300px;
+    left: 50px;
+
+}
+
+.platformer{
+    position: absolute;
+    top:300px;
+    left: 50px;
+}
+
+.bubbles{
+    position: absolute;
+    top:300px;
+    right: 50px;
+}
+
+.orbit{
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+.about_text{
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    font-family: "Matura MT Script Capitals";
+    color: azure;
+    font-size: 20px;
+}
+
+.inspo_text{
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    font-family: "Matura MT Script Capitals";
+    color: azure;
+    font-size: 20px;
+}
+
+.streetfighters{
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    left: 200px;
+}
+
+.languages{
+    position: absolute;
+    bottom: 10px;
+    right: 300px;
+    left: 300px;
+}
+
+.pythonlogo{
+    position: absolute;
+    top: 50px;
+    right: 900px;
+    left: 900px;
+}
+
+.mario{
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+    left: 100px;
+}
+
+.donkeykong{
+    position: absolute;
+    bottom: 10px;
+    right: 900px;
+    left: 900px;
+}
+
+.space_invaders{
+    position: absolute;
+    bottom: 10px;
+    right: 500px;
+    left: 500px;
+
+}
+
+.other_text{
+    position: absolute;
+    bottom: 200px;
+    right: 385px;
+    left: 385px;
+    font-family: "Matura MT Script Capitals";
+    color: azure;
+    font-size: 20px;
+}
+
+.dropbtn {
+    background: rgb(0,0,0,0.5);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropup {
+    position: relative;
+    display: inline-block;
+}
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.dropup-content a {
+    text-decoration: none;
+    color: azure;
+    padding: 5px 10px;
+    font-family: "Times New Roman";
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin: 10px 5px
+}
+
+.dropbtn:hover {
+    background: #fff;
+    transition: .4s;
+    color: #000;
+}
+
+.dropup:hover .dropup-content {
+    display: block;
+}
